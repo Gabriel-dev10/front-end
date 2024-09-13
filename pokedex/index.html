@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="International_Pokémon_logo.svg.png" alt="Logo Pokémon">
+        <input type="text" id="nomePokemon" placeholder="Nome do Pokémon ou ID">
+        <button onclick="buscarPokemon()">Buscar</button>
+        
+        <div class="pokemon-info">
+            <img id="imagemPokemon" class="pokeball" src="Pokebola-pokeball-png-0.png" alt="Imagem da Pokébola">
+            <h2 id="nomePokemonExibicao"></h2>
+            <p id="tipoPokemon"></p>
+            <p id="pesoPokemon"></p>
+            <p id="alturaPokemon"></p>
+        </div>
+
+        <div class="navigation">
+            <button id="voltar" onclick="navegarPokemon(-1)" disabled>Voltar</button>
+            <button id="proximo" onclick="navegarPokemon(1)" disabled>Avançar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

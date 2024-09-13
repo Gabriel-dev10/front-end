@@ -1,0 +1,155 @@
+body {
+    background-image: url(pokemon-chromebook-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+.tipo-pokemon-normal {
+    background-color: #A8A77A;
+}
+
+.tipo-pokemon-fire {
+    background-color: #FF4422;
+}
+
+.tipo-pokemon-water {
+    background-color: #3399FF;
+}
+
+.tipo-pokemon-electric {
+    background-color: #FFDD57;
+}
+
+.tipo-pokemon-grass {
+    background-color: #7AC74C;
+}
+
+.tipo-pokemon-ice {
+    background-color: #96D9D6;
+}
+
+.tipo-pokemon-fighting {
+    background-color: #C22E28;
+}
+
+.tipo-pokemon-poison {
+    background-color: #A33EA1;
+}
+
+.tipo-pokemon-ground {
+    background-color: #E2BF65;
+}
+
+.tipo-pokemon-flying {
+    background-color: #A98FF3;
+}
+
+.tipo-pokemon-psychic {
+    background-color: #F95587;
+}
+
+.tipo-pokemon-bug {
+    background-color: #A6B91A;
+}
+
+.tipo-pokemon-rock {
+    background-color: #B6A136;
+}
+
+.tipo-pokemon-ghost {
+    background-color: #735797;
+}
+
+.tipo-pokemon-dragon {
+    background-color: #6F35FC;
+}
+
+.tipo-pokemon-dark {
+    background-color: #705746;
+}
+
+.tipo-pokemon-steel {
+    background-color: #B7B7CE;
+}
+
+.tipo-pokemon-fairy {
+    background-color: #D685AD;
+}
+
+
+.container img{
+    padding: 20px;
+    width: 250px;
+    height: 100px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.pokemon-info {
+    margin: 20px auto; 
+    width: 300px;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#imagemPokemon.pokeball {
+    animation: shake 1s infinite; 
+}
+
+.pokemon-info img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.navigation {
+    margin-top: 20px;
+    display: none;
+}
