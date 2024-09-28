@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(verde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden; 
+    margin: 0;
+    position: relative; 
+}
+
+h1 {
+    color: #ffffffc4;
+}
+
+h2{
+    color: #ffffffc4;   
+}
+
+#input-filtro {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#mao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#mao img {
+    width: 140px;
+    height: auto;
+    transition: transform 0.5s ease, box-shadow 0.1s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    position: relative;
+}
+
+#mao img:hover {
+    transform: scale(1.1);
+}
+
+#mao img.favorite {
+    border-color: rgb(255, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+h2 {
+    color: #ffffffc4;
+}
+
+#lista-favoritos {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#lista-favoritos li {
+    color: #ffffffc4;
+}
+
